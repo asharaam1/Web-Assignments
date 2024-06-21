@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novell Services Login</title>
+</head>
+<body>
+    <Table>
+        <form>  
+        
+            <tr align="center">
+                <td colspan="2">
+                    <h3>Novell Services Login</h3>
+                </td>
+            </tr>
+
+            <td>
+                Username: 
+            </td>
+            <td>
+                <input type="text" name="username" size="15" maxlength="30">
+            </td>
+        </tr>    
+
+        <tr>
+            <td>
+                Password:
+            </td>
+            <td>
+                <input type="password" name="Password" size="15" maxlength="30">
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                City of <br>Employment:
+            </td>
+            <td>
+                <input type="text" name="" size="15" maxlength="30">
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                Web Server:
+            </td>
+            <td>
+                <select name="Server" id="Server" >
+                    <option value selected disabled="-Choose a Server-">~Choose a Server~</option>
+                    <option value="Server 1">Server 1</option>
+                    <option value="Server 2">Server 2</option>
+                </select>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <br>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                Please specify <br> your role:
+            </td>
+            <td>
+                <input type="radio" id="Admin" value="Admin"  name="role">
+                <label for="Admin">Admin</label>
+                <br>
+                <input type="radio" id="Engineer" value="Engineer"  name="role">
+                <label for="Engineer">Engineer</label>
+                <br>
+                <input type="radio" id="Manager" value="Manager"  name="role">
+                <label for="Manager">Manager</label>
+                <br>
+                <input type="radio" id="Guest" value="Guest"  name="role">
+                <label for="Guest">Guest</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <br>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+               Single Sign-on <br> to the following :
+            </td>
+            <td>
+                <input type="checkbox" id="Mail" value="Mail"  name="sso">
+                <label for="Mail">Mail</label>
+                <br>
+                <input type="checkbox" id="Payroll" value="Payroll"  name="sso">
+                <label for="Payroll">Payroll</label>
+                <br>
+                <input type="checkbox" id="Self-service" value="Self-service"  name="role">
+                <label for="Self-service">Self-service</label>
+            </td>
+        </tr>
+        
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" name="Login" value="Login" id="Login">
+                <input type="reset" name="Reset" >
+            </td>
+        </tr>
+
+        </form>
+    </table>
+</body>
+</html>
