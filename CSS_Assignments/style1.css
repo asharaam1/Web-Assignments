@@ -1,0 +1,97 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+p, h1, h2{
+    color: aliceblue;
+}
+
+.hero {
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM-6qww0aYiXH4qrF8o-MMRkb-DTSTnX_U_w&s);
+    
+    height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;   /* remove bullet point */
+	float: right;
+}
+
+nav li {
+	display: inline-block;
+	margin: 1em;
+	padding: 0.5em;	
+}
+
+nav a {
+	font-weight: 800;
+	text-decoration: none;
+	text-transform: uppercase;
+    color: aliceblue;
+}
+
+nav ul a:hover {
+	color: rgb(34, 232, 12);
+	transition: all 0.5s ease-in;        
+	padding: 15px 0;					
+}
+
+.home-hero {
+    display: inline-block;
+	margin: 1em;
+	padding: 0.5em;
+}
+
+.img-center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.btn{
+    /* border-radius: 50px;
+    color: white;
+    background-color: transparent; */
+	width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.btn:hover {
+    background-color: #009688;
+    color: none;
+    text-decoration: aliceblue;
+    }
+
+.sitenavigation{
+    color: white;
+    padding: 0%;
+}

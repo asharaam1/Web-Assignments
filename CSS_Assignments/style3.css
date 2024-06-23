@@ -1,0 +1,62 @@
+nav,footer {
+    background-color: gray;
+    color: white;
+}
+span{ display: inline-block;}
+a{
+    text-decoration: none;
+    padding: 15px; 
+    color: rgb(228, 224, 224);
+}
+p{
+    font-size: xx-large;
+    font-family: sans-serif;
+}
+input{
+    height: 30px;
+}
+button{
+    border-color: greenyellow;
+    color: greenyellow;
+    background-color: gray;
+    height: 30px;
+}
+.box1{
+    background-color: skyblue;
+    color: blue;
+    font-size: x-large;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.stable{
+width: 1000px;
+height: 300px;
+text-align: center;
+border: 1px solid black;
+}
+.row1{
+    background-color: rgb(7, 160, 7);
+    color: white;
+    text-decoration: ;
+}
+.row2{
+    background-color: rgb(241, 231, 231);
+}
+.row4{
+    background-color: rgb(241, 231, 231);
+}
+.green{
+    background-color: green;
+}
+.red{
+background-color: red;
+}
+footer{
+    background-color: gray;
+    color: white;
+    height: 120px;
+}
+.last2{ 
+    text-align: center ;
+    width: 80%;
+}
