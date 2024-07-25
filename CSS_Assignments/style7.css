@@ -1,0 +1,163 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    background-color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar h2{
+    width: 20%;
+    display: flex;
+    justify-content: right;
+}
+
+.pages{
+    width: 60%;
+    margin-right: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.pages a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    margin: 20px;
+}
+
+.navbar h3{
+    width: 20%;
+    float: right;
+}
+
+.section1{
+    width: 100%;
+    height: 400px;
+    background-image:  linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url(https://img.freepik.com/premium-photo/close-up-hand-using-keyboard-laptop-typing-with-social-media-internet_175201-269.jpg);
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-section1{
+    /* display: ruby; */
+    text-align: center;
+    width: 30%;
+    color: white;
+    line-height: 25px;
+}
+
+h1{
+    font-size: 35px;
+}
+
+p{
+    font-size: small;
+}
+
+.section2{
+    width: 100%;
+    height: ;
+    padding: 20px;
+    background-color: #e5e5e5;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.content{
+    width: 20%;
+    text-align: center;
+    margin: 20px;
+}
+
+.img img{
+    border-radius: 50%;
+}
+
+.content h3{
+    color: deepskyblue;
+}
+
+.section3{
+    width: 100%;
+    background-color: #dcdcdc;
+}
+
+.box1, .box2{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+}
+
+.box1-text{
+    width: 50%;
+    display: inline-block;
+    margin: 50px;
+    background-color: /blue;
+}
+
+.box1 button{
+    width: 150px;
+    height: 30px;
+    border: none;
+    margin: 20px 0;
+}
+
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2-img img{
+    width: 400px;
+    height: 250px;
+}
+
+.section4{
+    width: 100%;
+    padding: 20px 0;
+    background-color: #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block{
+    margin: 15px;
+    width: 25%;
+}
+
+.section4 h3{
+    display: flex;
+}
+
+.block img{
+    width:100%;
+    height: 200px;
+}
+.block-text{
+    padding: 0 15px;
+    background-color: white;
+}
+
+.block-text h3{
+    color: deepskyblue;
+}

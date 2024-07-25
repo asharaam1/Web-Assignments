@@ -1,0 +1,69 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.main{
+    height: 800px;
+    background-color: rgb(53, 180, 106);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* calculator */
+.cal{
+    height: 400px;
+    width: 250px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+#welcome{
+    height: 32px;
+    width: 220px;
+    background-color: azure;
+    border-radius: 8px;
+    margin: 14px 0px 0px 14px;
+    text-align: center;
+    font-family:  sans-serif;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#value{
+    color: aliceblue;
+    font-size: large;
+    text-align: right;
+    margin-right: 30px;
+}
+
+table tr {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+}
+
+table tr td button{
+    width: 45px;
+    height: 45px;
+    margin: 6px;
+    font-size: larger;
+    color: white;
+    background-color: rgb(77, 74, 74);
+    border: none ;
+    border-radius: 29px;
+}
+
+#grey{
+    background-color: grey;
+}
+
+#yellow{
+    background-color: orange;
+}

@@ -89,9 +89,15 @@ nav ul a:hover {
     background-color: #009688;
     color: none;
     text-decoration: aliceblue;
-    }
+}
 
 .sitenavigation{
     color: white;
     padding: 0%;
+}
+
+.developer{
+    padding: 20px;
+    font-size: 20px;
+    background-color: black;
 }

@@ -1,0 +1,177 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.8px;
+    word-spacing: 1px;
+}
+
+b{
+    font-weight: 800;
+}
+
+/* Heading Area */
+.header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(60,89,155);
+    color: white;
+}
+
+/* .logo{
+    width: 30%;
+    padding-left: 150px;
+} */
+
+.right{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 13px;
+}
+
+.info{
+    margin-right: 15px;
+}
+
+.login-email, .pass{
+    width: 150px;
+    height: 25px;
+}
+
+.info a{
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    color: white;
+    background-color: rgb(96, 96, 155);
+    font-weight: bolder;
+    padding: 2px 6px;
+}
+
+
+
+/* Body area */
+.section{
+    width: 100% ;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #eef1f6
+}
+
+.section-left{
+    display: inline-block;
+    width: 50%;
+    border: none;
+}
+
+.heading{
+    margin: 80px 20px 5px 80px;
+}
+
+.more{
+    margin: 10px 20px 5px 100px;
+    line-height: 2.5;
+}
+
+.section-right{
+    /* flex-basis: 45%; */
+    display: inline-block;
+    width: 49%;
+    border: none;
+
+}
+
+input{
+    margin: 2px;
+}
+
+.firstname, .lastname{
+    width: 180px;
+    height: 30px;
+    padding: 6px;
+    margin-bottom: 6px;
+}
+
+.email{
+    width: 370px;
+    height: 30px; 
+    padding: 6px;
+    margin-bottom: 6px;
+}
+
+.birthday{
+    margin: 0px 4px 4px 0;
+}
+
+.birthday-date{
+    display: flex;
+}
+
+/* .choose{
+
+} */
+
+.day{
+    width: 50px;
+    height: 35px;
+    background-color: #dddee0;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.year{
+    height: 35px;
+    background-color: #dddee0;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.month{
+    margin-right: 10px;
+    height: 35px;
+    background-color: #dddee0;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(56, 109, 221);
+}
+
+/* .info2{
+
+}
+
+.gender{
+
+} */
+
+span{
+    margin: 0 8px 0 0;
+}
+
+
+.signup{
+    width: 180px;
+    height: 35px;
+    background-color: #5b9a4a;
+    border: none;
+    border-radius: 5px;
+}
+
+.editor{
+    font-weight: 800;
+    font-style: oblique;
+    font-size: 25px;
+    text-decoration: overline underline;
+    margin-left: 15px;
+    font-family:'Times New Roman', Times, serif;
+}
