@@ -1,0 +1,116 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Start code for header and 1st container */
+.container {
+    width: 100%;
+    height: 650px;
+    /* background-image: url(./cover-img-1.jpg) ; */
+    /* background-size: 100% 100%; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* float: initial; */
+}
+
+
+header {
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    /* padding: 20px; */
+    display: flex;
+    position: fixed;
+    top: 0%;
+    justify-content: space-between;
+    font-variant: all-petite-caps;
+}
+
+header .logo-pages {
+    width: 20%;
+    
+}
+
+header .logo-pages .logo{
+    width: 100%;
+}
+
+header .logo-pages .logo img{
+    width: 90%;
+    height: 50px;
+}
+
+header .logo-pages .pages{
+    width: 100%;
+}
+
+header .logo-pages .pages ul {
+    width: 100%;
+    display: flex;
+    list-style: none;
+}
+
+header .logo-pages .pages ul li{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+header /*.logo-pages .pages ul li*/ a{
+    text-decoration: none;
+    color: black;
+}
+
+header .search-cart{
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    /* margin: 20px 20px 20px 0; */
+    /* padding: 20px 20px 20px 0; */
+}
+
+header .search-cart .search-bar a{
+    width: 20%;
+    padding: 20px;
+    /* float: right; */
+}
+
+.cart span{
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+.badge:after{
+    content:attr(value);
+    font-size:12px;
+    color: #fff;
+    background: red;
+    border-radius:50%;
+    padding: 0 5px;
+    position:relative;
+    left:-8px;
+    top:-10px;
+    opacity:0.9;
+}
+
+img{
+    width: 100%;
+    height: 605px;
+}
+
+video{
+    width: 100%;
+}
+
+/* .video-size{
+    height: 400px;
+    width: 100%;
+} */
+
+#myVideo {
+    width: 100%;
+    height: 612px;
+    object-fit: cover;
+    z-index: -100;
+}
