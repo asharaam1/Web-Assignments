@@ -19,8 +19,8 @@ https://asharaam1.github.io/Web-Assignments/CSS_Assignments/1.page_html_css.html
 https://asharaam1.github.io/Web-Assignments/CSS_Assignments/2.dental_page.html
 https://asharaam1.github.io/Web-Assignments/CSS_Assignments/3.booking_page.html
 https://asharaam1.github.io/Web-Assignments/CSS_Assignments/4.fb-page.html
-https://asharaam1.github.io/Web-Assignments/CSS_Assignments/5.web_page.html
+https://asharaam1.github.io/Web-Assignments/CSS_AssignmentsWeb-Page-Store/5.web_page.html
 https://asharaam1.github.io/Web-Assignments/CSS_Assignments/6.calculator.html
 https://asharaam1.github.io/Web-Assignments/CSS_Assignments/7.creative-solution-page.html
-https://asharaam1.github.io/Web-Assignments/CSS_Assignments/8.servis.pk-page.html
+https://asharaam1.github.io/Web-Assignments/CSS_Assignments/Service.pk-page/8.servis.pk-page.html
 
